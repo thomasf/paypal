@@ -1,0 +1,45 @@
+{
+  "id": "WH-2WR32451HC0233532-67976317FL4543714",
+  "create_time": "2015-07-20T21:41:28Z",
+  "resource_type": "vault-credit-card",
+  "event_type": "VAULT.CREDIT-CARD.CREATED",
+  "summary": "A credit card was created",
+  "resource": {
+    "links ": [
+      {
+        "href ": "https: //api.paypal.com/v1/vault/credit-card/CARD-2XR99321JH288614BK7SF2ZY",
+        "rel": "self",
+        "method": "GET"
+      },
+      {
+        "href": "https://api.paypal.com/v1/vault/credit-card/CARD-2XR99321JH288614BK7SF2ZY",
+        "rel": "delete",
+        "method": "DELETE"
+      },
+      {
+        "href": "https://api.paypal.com/v1/vault/credit-card/CARD-2XR99321JH288614BK7SF2ZY",
+        "rel": "patch",
+        "method": "PATCH"
+      }
+    ],
+    "state ": "ok ",
+    "id ": "CARD - 2 XR99321JH288614BK7SF2ZY ",
+    "first_name ": "Cool ",
+    "billing_address ": {
+      "line1 ": "2211 N First Street ",
+      "city ": "San Jose ",
+      "state ": "CA ",
+      "postal_code ": "95131 ",
+      "country_code ": "US "
+    },
+    "valid_until ": "2019 - 09 - 22 T00: 00: 00 Z ",
+    "expire_year ": "2027 ",
+    "last_name ": "Buyer ",
+    "create_time ": "2016 - 09 - 22 T22: 38: 31 Z ",
+    "expire_month ": "7 ",
+    "number ": "xxxxxxxxxxx4009 ",
+    "update_time ": "2016 - 09 - 22 T22: 38: 31 Z ",
+    "type ": "amex "
+  },
+  "links": []
+}

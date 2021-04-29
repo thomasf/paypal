@@ -1,0 +1,39 @@
+{
+  "id": "WH-COC11055RA711503B-4YM959094A144403T",
+  "create_time": "2019-11-16T21:21:49.000Z",
+  "resource_type": "process",
+  "event_type": "COMPLIANCE.PROCESS.EXEMPTED",
+  "summary": "Process status has changed to Exempted",
+  "resource": {
+    "account_number": "1684484642489581769",
+    "party_id": "1684484642489581769",
+    "jurisdiction": "US",
+    "name": "MANAGED_PATH_KYC",
+    "links": [
+      {
+        "href": "https://api.paypal.com/v1/compliance/processes/ed90b303a0b3c67e5dc391d26dbf6e155cf6a5a50f7740d6b709c1dad4cdb46d",
+        "rel": "self",
+        "method": "GET"
+      }
+    ],
+    "id": "ed90b303a0b3c67e5dc391d26dbf6e155cf6a5a50f7740d6b709c1dad4cdb46d",
+    "version": "1",
+    "status": "EXEMPTED"
+  },
+  "links": [
+    {
+      "href": "https://api.paypal.com/v1/notifications/webhooks-events/WH-COC11055RA711503B-4YM959094A144403T",
+      "rel": "self",
+      "method": "GET",
+      "encType": "application/json"
+    },
+    {
+      "href": "https://api.paypal.com/v1/notifications/webhooks-events/WH-COC11055RA711503B-4YM959094A144403T/resend",
+      "rel": "resend",
+      "method": "POST",
+      "encType": "application/json"
+    }
+  ],
+  "event_version": "1.0",
+  "resource_version": "1.0"
+}

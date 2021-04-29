@@ -1,0 +1,32 @@
+{
+  "id": "WH-3AE50806EM5305732-8C457463XB353952R",
+  "create_time": "2018-05-24T07:18:28.264Z",
+  "resource_type": "managed-accounts",
+  "event_type": "CUSTOMER.MANAGED-ACCOUNT.RISK-ASSESSED",
+  "summary": "Risk assessments for merchant account.",
+  "resource": {
+    "risk_assessment": {
+      "score": 800,
+      "reasons": [
+        "INCONSISTENT_BEHAVIOR"
+      ]
+    },
+    "payer_id": "7G4EPEEPEF74L",
+    "external_id": "demo-201@shopify.com"
+  },
+  "links": [
+    {
+      "href": "https://api.paypal.com/v1/notfications/webhooks-events/WH-3AE50806EM5305732-8C457463XB353952R",
+      "rel": "self",
+      "method": "GET",
+      "encType": "application/json"
+    },
+    {
+      "href": "https://api.paypal.com/v1/notfications/webhooks-events/WH-3AE50806EM5305732-8C457463XB353952R/resend",
+      "rel": "resend",
+      "method": "POST",
+      "encType": "application/json"
+    }
+  ],
+  "event_version": "1.0"
+}

@@ -1,0 +1,94 @@
+{
+  "id": "WH-6W4482673W002281V-61985753LP2332451",
+  "create_time": "2015-05-11T21:45:15Z",
+  "resource_type": "payment",
+  "event_type": "PAYMENTS.PAYMENT.CREATED",
+  "summary": "Checkout payment is created and approved by buyer",
+  "resource": {
+    "update_time": "2019-01-25T00:12:08Z",
+    "create_time": "2019-01-25T00:11:05Z",
+    "links": [
+      {
+        "href": "https://api.paypal.com/v1/payments/PAY-13V79659LS5126423KVISFPI",
+        "rel": "self",
+        "method": "GET"
+      },
+      {
+        "href": "https://api.paypal.com/v1/payments/PAY-13V79659LS5126423KVISFPI/execute",
+        "rel": "execute",
+        "method": "POST"
+      },
+      {
+        "href": "https://www.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-6BY44209VL795183H",
+        "rel": "approval_url",
+        "method": "REDIRECT"
+      }
+    ],
+    "id": "PAY-13V79659LS5126423KVISFPI",
+    "state": "created",
+    "transactions": [
+      {
+        "amount": {
+          "total": "4.13",
+          "currency": "EUR",
+          "details": {
+            "subtotal": "4.00",
+            "tax": "0.13",
+            "handling_fee": "0.00"
+          }
+        },
+        "payee": {
+          "merchant_id": "2WVGFDAU8TB78",
+          "email": "merchant@example.com"
+        },
+        "description": "This is a PayPal transaction",
+        "item_list": {
+          "shipping_address": {
+            "recipient_name": "John Doe",
+            "line1": "2211 N. 1st Street",
+            "city": "San Jose",
+            "state": "CA",
+            "postal_code": "95131",
+            "country_code": "US"
+          }
+        },
+        "related_resources": []
+      }
+    ],
+    "intent": "sale",
+    "payer": {
+      "payment_method": "paypal",
+      "status": "UNVERIFIED",
+      "payer_info": {
+        "email": "customer@example.com",
+        "first_name": "John",
+        "last_name": "Doe",
+        "payer_id": "MKPXKVHEHVCYU",
+        "shipping_address": {
+          "recipient_name": "John Doe",
+          "line1": "2211 N. 1st Street",
+          "city": "San Jose",
+          "state": "CA",
+          "postal_code": "95131",
+          "country_code": "US"
+        },
+        "country_code": "US"
+      }
+    }
+  },
+  "links": [
+    {
+      "href": "https://api.paypal.com/v1/notifications/webhooks-events/WH-6W4482673W002281V-61985753LP2332451",
+      "rel": "self",
+      "method": "GET",
+      "encType": "application/json"
+    },
+    {
+      "href": "https://api.paypal.com/v1/notifications/webhooks-events/WH-6W4482673W002281V-61985753LP2332451/resend",
+      "rel": "resend",
+      "method": "POST",
+      "encType": "application/json"
+    }
+  ],
+  "event_version": "1.0"
+}

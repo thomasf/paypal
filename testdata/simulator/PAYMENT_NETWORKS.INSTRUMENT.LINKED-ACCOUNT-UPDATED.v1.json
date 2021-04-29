@@ -1,0 +1,33 @@
+{
+  "id": "WH-17W49296X1356610S-0MD256853V991784A",
+  "create_time": "2015-10-07T16:45:17Z",
+  "resource_type": "INSTRUMENT",
+  "event_type": "PAYMENT_NETWORKS.INSTRUMENT.LINKED-ACCOUNT-UPDATED",
+  "summary": "An instrument was successfully added.",
+  "resource": {
+    "partner_financial_instrument_id": "VS12345678900000",
+    "event": {
+      "event_type": "INSTRUMENT_ADDED",
+      "event_reason": "ADDED_BY_PUSH"
+    },
+    "customer": {
+      "partner_customer_id": "APRE32ER567GH",
+      "paypal_customer_id": "M234WEMADSKDF"
+    }
+  },
+  "links": [
+    {
+      "href": "https://api.paypal.com/v1/notifications/webhooks-events/WH-17W49296X1356610S-0MD256853V991784A",
+      "rel": "self",
+      "method": "GET",
+      "encType": "application/json"
+    },
+    {
+      "href": "https://api.paypal.com/v1/notifications/webhooks-events/WH-17W49296X1356610S-0MD256853V991784A/resend",
+      "rel": "resend",
+      "method": "POST",
+      "encType": "application/json"
+    }
+  ],
+  "event_version": "1.0"
+}

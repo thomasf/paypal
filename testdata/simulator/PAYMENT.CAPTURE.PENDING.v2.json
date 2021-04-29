@@ -1,0 +1,57 @@
+{
+  "id": "WH-9Y180613C5171350R-3A568107UP261041K",
+  "create_time": "2018-08-15T20:03:06.086Z",
+  "resource_type": "capture",
+  "event_type": "PAYMENT.CAPTURE.PENDING",
+  "summary": "Payment pending for $ 2.51 USD",
+  "resource": {
+    "amount": {
+      "currency_code": "USD",
+      "value": "2.51"
+    },
+    "seller_protection": {
+      "status": "NOT_ELIGIBLE"
+    },
+    "update_time": "2018-08-15T20:02:40Z",
+    "create_time": "2018-08-15T20:02:40Z",
+    "final_capture": true,
+    "links": [
+      {
+        "href": "https://api.paypal.com/v2/payments/captures/02T21492PP3782704",
+        "rel": "self",
+        "method": "GET"
+      },
+      {
+        "href": "https://api.paypal.com/v2/payments/captures/02T21492PP3782704/refund",
+        "rel": "refund",
+        "method": "POST"
+      },
+      {
+        "href": "https://api.paypal.com/v2/checkout/orders/8PR65097T8571330M",
+        "rel": "up",
+        "method": "GET"
+      }
+    ],
+    "id": "02T21492PP3782704",
+    "status_details": {
+      "reason": "UNILATERAL"
+    },
+    "status": "PENDING"
+  },
+  "links": [
+    {
+      "href": "https://api.paypal.com/v1/notifications/webhooks-events/WH-9Y180613C5171350R-3A568107UP261041K",
+      "rel": "self",
+      "method": "GET",
+      "encType": "application/json"
+    },
+    {
+      "href": "https://api.paypal.com/v1/notifications/webhooks-events/WH-9Y180613C5171350R-3A568107UP261041K/resend",
+      "rel": "resend",
+      "method": "POST",
+      "encType": "application/json"
+    }
+  ],
+  "event_version": "1.0",
+  "resource_version": "2.0"
+}

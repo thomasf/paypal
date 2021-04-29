@@ -1,0 +1,46 @@
+{
+  "id": "WH-55TG7562XN2588878-8YH955435R661687G",
+  "create_time": "2018-12-19T22:20:32.000Z",
+  "resource_type": "product",
+  "event_type": "CATALOG.PRODUCT.CREATED",
+  "summary": "Product created",
+  "resource": {
+    "update_time": "2018-12-10T21:20:49Z",
+    "create_time": "2018-12-10T21:20:49Z",
+    "home_url": "https://example.com/home",
+    "image_url": "https://example.com/streaming.jpg",
+    "name": "Video Streaming Service",
+    "description": "Video streaming service",
+    "links": [
+      {
+        "href": "https://api.paypal.com/v1/catalogs/products/72255d4849af8ed6e0df1173",
+        "rel": "self",
+        "method": "GET"
+      },
+      {
+        "href": "https://api.paypal.com/v1/catalogs/products/72255d4849af8ed6e0df1173",
+        "rel": "edit",
+        "method": "PATCH"
+      }
+    ],
+    "id": "72255d4849af8ed6e0df1173",
+    "type": "SERVICE",
+    "category": "SAAS"
+  },
+  "links": [
+    {
+      "href": "https://api.paypal.com/v1/notifications/webhooks-events/WH-55TG7562XN2588878-8YH955435R661687G",
+      "rel": "self",
+      "method": "GET",
+      "encType": "application/json"
+    },
+    {
+      "href": "https://api.paypal.com/v1/notifications/webhooks-events/WH-55TG7562XN2588878-8YH955435R661687G/resend",
+      "rel": "resend",
+      "method": "POST",
+      "encType": "application/json"
+    }
+  ],
+  "event_version": "1.0",
+  "resource_version": "2.0"
+}

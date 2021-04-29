@@ -1,0 +1,34 @@
+{
+  "id": "WH-36085248X1332043N-3V849330NM790074B",
+  "create_time": "2018-08-13T19:05:52.198Z",
+  "resource_type": "payment",
+  "event_type": "PAYMENT-NETWORKS.ALTERNATIVE-PAYMENT.COMPLETED",
+  "summary": "Alternative Payment Completed",
+  "resource": {
+    "payment_id": "PAY-2CA469374L558971ALNY5IAQ",
+    "payer_id": "VMQCQ7FTJ52PS",
+    "links": [
+      {
+        "href": "https://api.paypal.com/v1/payments/payment/PAY-2CA469374L558971ALNY5IAQ/execute",
+        "rel": "execute",
+        "method": "POST",
+        "encType": "application/json"
+      }
+    ]
+  },
+  "links": [
+    {
+      "href": "https://msmaster1int.g.devqa.gcp.dev.paypalinc.com:14084/v1/notifications/webhooks-events/WH-36085248X1332043N-3V849330NM790074B",
+      "rel": "self",
+      "method": "GET",
+      "encType": "application/json"
+    },
+    {
+      "href": "https://msmaster1int.g.devqa.gcp.dev.paypalinc.com:14084/v1/notifications/webhooks-events/WH-36085248X1332043N-3V849330NM790074B/resend",
+      "rel": "resend",
+      "method": "POST",
+      "encType": "application/json"
+    }
+  ],
+  "event_version": "1.0"
+}

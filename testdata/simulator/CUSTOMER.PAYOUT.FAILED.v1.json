@@ -1,0 +1,40 @@
+{
+  "id": "WH-16170911N70045517-80580535CU4938110",
+  "create_time": "2018-07-19T20:50:41.324Z",
+  "resource_type": "payouts",
+  "event_type": "CUSTOMER.PAYOUT.FAILED",
+  "summary": "A payout was reversed.",
+  "resource": {
+    "amount": {
+      "currency_code": "USD",
+      "value": "3.00"
+    },
+    "update_time": "2018-07-19T20:50:15.000Z",
+    "payout_status": {
+      "reason": "REGULATORY_BLOCKED",
+      "status": "FAILED"
+    },
+    "create_time": "2018-07-19T20:50:15.000Z",
+    "destination": {
+      "fi_id": "BA-WH2P963XTH6AS",
+      "type": "FINANCIAL_INSTRUMENT_ID"
+    },
+    "id": "89191466CX8275428",
+    "merchant_id": "24ZN9VFAM2AGJ"
+  },
+  "links": [
+    {
+      "href": "https://stage2ma112402.pp-devqa-userstages.us-central1.gcp.dev.paypalinc.com:14084/v1/notifications/webhooks-events/WH-16170911N70045517-80580535CU4938110",
+      "rel": "self",
+      "method": "GET",
+      "encType": "application/json"
+    },
+    {
+      "href": "https://stage2ma112402.pp-devqa-userstages.us-central1.gcp.dev.paypalinc.com:14084/v1/notifications/webhooks-events/WH-16170911N70045517-80580535CU4938110/resend",
+      "rel": "resend",
+      "method": "POST",
+      "encType": "application/json"
+    }
+  ],
+  "event_version": "1.0"
+}
